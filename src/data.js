@@ -1,4 +1,4 @@
-import hzty from './assets/logo_hzty.png';
+﻿import hzty from './assets/logo_hzty.png';
 import txdata from './assets/logo_txdata.png';
 import jxyq from './assets/bg.png'; //此公司已关闭，放个空白图片上去
 import bootplus from './assets/bootplus.png';
@@ -53,126 +53,96 @@ export default {
     },
     footer: ['Released under the Apache License', 'All Rights Reserved'],
     overview: {
-      infoList: ['23岁', '本科', '杭州', '在职'],
+      infoList: ['27岁', '本科', '北京', '在职'],
       quote: '不浮躁，不偏激，爱编程，爱后端，爱新技术，爱运动，执行力和学习能力都棒棒哒！',
-      desList: ['我叫周思伟，Java软件工程师', '杭州特扬网络科技有限公司', '2434387555@qq.com']
+      desList: ['我叫巩夏辉，Android工程师', '北京大有智尚科技有限公司', '2543810401@qq.com']
     },
     skill: {
       outCircleList: [{
           bg: {
             backgroundColor: 'rgba(121,100,102,0.8)'
           },
-          name: 'Java'
+          name: 'Android'
         },
         {
           bg: {
             backgroundColor: 'rgba(49,65,82,0.8)'
           },
-          name: 'SpringBoot'
+          name: 'JAVA'
         },
         {
           bg: {
             backgroundColor: 'rgba(193,131,106,0.8)'
           },
-          name: 'SpringCloud'
+          name: 'kotlin'
         },
         {
           bg: {
             backgroundColor: 'rgba(117,148,179,0.8)'
           },
-          name: 'RabbitMQ'
-        },
-        {
-          bg: {
-            backgroundColor: 'rgba(147,147,189,0.8)'
-          },
-          name: 'MyBatis'
-        },
-        {
-          bg: {
-            backgroundColor: 'rgba(172,223,159,0.8)'
-          },
-          name: 'Linux'
-        },
-        {
-          bg: {
-            backgroundColor: 'rgba(66,66,66,0.8)'
-          },
-          name: '小程序'
-        },
-        {
-          bg: {
-            backgroundColor: 'rgba(71,83,94,0.8)'
-          },
-          name: 'Vue'
+          name: 'Flutter'
         }
+        
       ],
       innerCircleList: [{
           bg: {
             backgroundColor: 'rgba(179,164,140,0.8)'
           },
-          name: 'MySQL'
+          name: 'NDK'
         },
         {
           bg: {
             backgroundColor: 'rgba(171,209,220,0.8)'
           },
-          name: 'Redis'
+          name: '性能优化'
         },
         {
           bg: {
             backgroundColor: 'rgba(238,215,163,0.8)'
           },
-          name: 'GitHub'
+          name: '架构'
         },
         {
           bg: {
             backgroundColor: 'rgba(207,184,178,0.8)'
           },
-          name: 'Nacos'
+          name: '适配'
         }
       ],
       desList: [
-        '我叫周思伟，23岁，坐标杭州，是一名Java软件工程师，三年Java EE 从业经验。',
+        '我叫巩夏辉，27岁，坐标北京，是一名Android工程师，四年Android开发经验。',
         '熟悉软件开发的整个流程，有较强的逻辑思维能力',
-        '主要涉及技术：Java后端开发、聚合支付、公众号开发、开源爱好者、Linux',
+        '主要涉及技术：Android开发、Flutter开发',
         '有良好的文档编写和代码书写规范，能独立解决问题、百折不挠、细节控'
       ],
       links: [{
         title: '● Github',
-        des: 'https://github.com/JoeyBling',
-        url: 'https://github.com/JoeyBling'
+        des: 'https://github.com/gxh-apologize',
+        url: 'https://github.com/gxh-apologize'
       }, {
         title: '● 技术笔记',
-        des: 'https://zhousiwei.gitee.io/ibooks/',
-        url: 'https://zhousiwei.gitee.io/ibooks/'
+        des: 'https://blog.csdn.net/GXH_APOLOGIZE',
+        url: 'https://blog.csdn.net/GXH_APOLOGIZE'
       }]
     },
     exp: {
       expList: [{
-          title: '杭州特扬网络科技有限公司',
-          time: '2019年4月~至今',
-          post: '技术部/Java软件工程师',
+          title: '北京大有智尚科技发展有限公司',
+          time: '2017.03-至今',
+          post: '技术部/Android工程师',
           img: {
             backgroundImage: `url(${hzty})`
           },
-          contentList: ['使用高并发，多线程为(互联网+医疗)提供解决方案', '负责编制与产品或项目相关的技术文档', '使用Linux命令完成日常系统的部署及维护工作']
+          contentList: ['负责Android产品的框架设计与开发', '负责编写与产品或项目相关的技术文档', '产品功能迭代与性能调优']
         },
         {
-          title: '江西三叉数信息科技有限公司',
-          time: '2017年12月~2019年3月',
-          post: '技术部/Java软件工程师',
+          title: '北京人人购电子商务有限公司',
+          time: '2016.08-2016.12',
+          post: '技术部/Android工程师',
           img: {
             backgroundImage: `url(${txdata})`
           },
-          contentList: ['使用SSM、SpringCloud、Nacos、VueJS等前沿开发技术', '获得过公司颁发并盖章的优秀员工荣誉证书奖', '与前端开发人员进行功能接口对接，解决测试人员提出的 bug']
-        },
-        {
-          title: '江西益强微盈信息科技有限公司',
-          time: '2016年6月~2017年11月',
-          post: '技术部/Java软件工程师',
-          img: {},
-          contentList: ['参加讨论相关项目需求、概要设计，并完成核心代码编写', '使用SpringBoot、SpringMVC、Mybatis进行开发', '对代码持续重构优化，对系统不足进行分析，提高系统性能']
+          contentList: ['负责惠客盟App的开发', '负责编写相关的技术文档', '参加讨论相关项目需求']
         }
       ]
     },
@@ -557,37 +527,12 @@ export default {
       typeList: [{
           title: 'GitHub',
           icon: sGithub,
-          url: 'https://github.com/JoeyBling'
-        },
-        {
-          title: 'Gitee',
-          icon: SGitee,
-          url: 'https://gitee.com/zhousiwei'
-        },
-        {
-          title: 'Blog',
-          icon: sBlog,
-          url: 'https://zhousiwei.gitee.io'
-        },
-        {
-          title: 'Jianshu',
-          icon: SJianshu,
-          url: 'https://www.jianshu.com/u/02cbf31a043a'
+          url: 'https://github.com/gxh-apologize'
         },
         {
           title: 'CSDN',
           icon: SCSDN,
-          url: 'https://blog.csdn.net/qq_30930805'
-        },
-        {
-          title: 'ZhiHu',
-          icon: sZh,
-          url: 'https://www.zhihu.com/people/joeybling'
-        },
-        {
-          title: 'WeiBo',
-          icon: sWeiBo,
-          url: 'http://weibo.com/jayinfo'
+          url: 'https://blog.csdn.net/GXH_APOLOGIZE'
         }
       ],
       links: [{
