@@ -103,7 +103,7 @@
         <div class="slider">
           <div class="slider-container">
             <div class="left">
-              <div class="img" v-style="expCur.img"></div>
+             
               <h4 v-text="expCur.title"></h4>
               <p class="-post">"<span v-text="expCur.post"></span>"</p>
             </div>
@@ -160,20 +160,19 @@
         <div class="idea">
           <p v-for="item in contact.desList2" v-text="item"></p>
         </div>
-        <p v-for="item in contact.links">
-          <span v-text="item.title"></span> ➡️
-          <a class="links" v-href="item.url" v-text="item.des" target="_blank"></a>
-        </p>
-        <!-- <div class="download">
-            <div class="title" v-text="contact.download"></div>
+        <div class="download">
+
+ 	<a href="http://note.youdao.com/noteshare?id=f12e07d03eda484fc39c1194b3a1e80e&sub=B1B1E196788A419B909D319F0AB8EFAC" target="_blank"  v-text="contact.download">contact.download</a>
+<!-- 
+            <div  class="title" v-text="contact.download"></div>
             <div class="list">
               <a v-href="item.url" target="_blank" v-for="item in contact.fileList " v-text="item.title">item.title</a>
-            </div>
-          </div> -->
-        <div class="way">
+            </div>  -->
+          </div> 
+      <!--   <div class="way">
           <a class="way-item" v-title="item.title" v-for="item in contact.typeList" v-href="item.url" target="_blank">
             <img class="way-item-img" v-src="item.icon" alt="" />
-          </a>
+          </a> -->
         </div>
       </div>
     </section>

@@ -3,6 +3,8 @@ import txdata from "./assets/logo_txdata.png";
 import jiuli from "./assets/jiuli.jpg";
 import anires from "./assets/anires.png";
 import ibooks from "./assets/ibooks.png";
+import blog from "./assets/blog.png";
+import myBook from "./assets/myBook.png";
 
 import dHome from "./assets/d_home.svg";
 import dSkills from "./assets/d_skills.svg";
